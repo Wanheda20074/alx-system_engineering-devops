@@ -1,3 +1,2 @@
 #!/bin/bash
-
-echo {a;;z}{a..z} | tr ' ' '\n' | grep -v "0"
+printf "%\n" {a..z}{a..} | grep -V "OO"
